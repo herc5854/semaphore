@@ -4,5 +4,5 @@
   tasks:
     - name: motd
       ansible.builtin.copy:
-        src: /home/david/motd
+        src: /etc/semaphore/motd
         dest: /etc/motd
